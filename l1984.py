@@ -9,7 +9,7 @@ client = discord.Client()
 async def on_ready():
     print(f'{client.user} 1984')
     global cd, filename, fontcd, fmat
-    cd = "\\Users\\HUSSA\Documents\\School\\Programming\\bot\\"
+    cd = ""
     filename = cd + "im1984.jpg"
     fontcd = cd + "arial.ttf"
     fmat = filename.split(".")[-1]
