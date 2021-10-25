@@ -36,7 +36,7 @@ async def on_message(message):
     I1 = ImageDraw.Draw(cap)
     msg = await message.channel.fetch_message(message.reference.message_id)
     final = "\"{0}\"".format(msg.content)
-    if final == "":
+    if final == "\"\"":
         final = "SUCK ME"
     for i in range(1, imw//5):
         arial = ImageFont.FreeTypeFont(fontcd, size=i)
