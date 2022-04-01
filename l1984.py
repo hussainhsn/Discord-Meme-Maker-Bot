@@ -2,7 +2,7 @@ import discord
 from tkinter import *
 from PIL import Image, ImageDraw, ImageFont
 
-TOKEN = 'OTAxMTAwMjk0MzUwNDU0ODc1.YXK9Cw.TSDYqiqQtMNt0IwKy0RLv1z6Cgg'
+TOKEN = ""
 client = discord.Client()
 
 @client.event
