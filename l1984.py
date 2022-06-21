@@ -37,7 +37,7 @@ async def on_message(message):
     msg = await message.channel.fetch_message(message.reference.message_id)
     final = "\"{0}\"".format(msg.content)
     if final == "\"\"":
-        final = "SUCK ME"
+        final = ""
     for i in range(1, imw//5):
         arial = ImageFont.FreeTypeFont(fontcd, size=i)
         left, top, right, bottom = arial.getbbox(final)
